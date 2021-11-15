@@ -9,6 +9,13 @@
     inputCPF.value = checkCPF(stringNumbers);
   });
 
+  document.addEventListener('keypress', e =>{
+    if(e.keyCode === 13){
+    const stringNumbers = inputCPF.value.replace(/\D+/g, "");
+    inputCPF.value = checkCPF(stringNumbers);
+    }
+  })
+
   function checkCPF(stringNumbers) {
     if (stringNumbers === stringNumbers[0].repeat(stringNumbers.length)) {
       return "CPF inválido";
