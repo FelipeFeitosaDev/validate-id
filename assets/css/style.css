@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+
+:root {
+  --bg-color-primary: #44475A;
+  --bg-color-secondary: #282A36;
+  --txt-color:#F8F8F2;
+  --btn-color-primary:#50FA7B;
+  --btn-color-secondary: #FF79C6;  
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color-primary);
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 410px;
+  height: 190px;
+  margin: 50px auto;
+  background: var(--bg-color-secondary);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button{
+  cursor: pointer;
+  margin-right: 10px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--btn-color-primary);
+  font-weight: 300;
+  font-family: 'Rajdhani';
+  font-size: 20PX;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+button:hover{
+  color: white;
+  background-color: var(--btn-color-secondary);
+  
+}
+
+input{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: var(--bg-color-primary);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    padding-left: 15px;
+    color: var(--txt-color);
+    font-size: 25px;
+   font-weight: 500;
+   font-family: 'Rajdhani';
+   outline: none;
+   width: 55%;
+
+}
+h1{
+  color: var(--btn-color-secondary)
+}
