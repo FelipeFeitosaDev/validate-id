@@ -1,5 +1,6 @@
 # validate-id
-A number ID validator
+
+It's a page with only input and a button for validate your number
 
 ## Technologies Used
 
@@ -12,13 +13,10 @@ A number ID validator
 
 ## Features
 
-Basically it's a timer with thres buttons (start,pause and reset):
-
+- function to verify repeated numbers like '11111111'
+- if it's a invalid number will displayed on input 
 - the buttons gets pink when mouse over.
-- the timer gets pink when pause. 
-- condicionals with one event.listener. 
-- object Date with localeTimeString method.
-- setInterval and clearInterval. 
+- you can click and press enter  
 
 ## How to use
 
