@@ -1,5 +1,5 @@
 # validate-id
-<img align="center" width="60%" margin-bottom="80px" src="https://github.com/FelipeFeitosaDev/validade-id/blob/master/assets/images/menu-profile.png" style="max-width:100%;">
+<img align="center" width="60%" margin-bottom="80px" src="https://raw.githubusercontent.com/FelipeFeitosaDev/validate-id/master/assets/img/mockup_window.png" style="max-width:100%;">
 
 It's a page with only input and a button for validate your number
 
