@@ -37,13 +37,13 @@
   }
 
   function returnDigit(set, counter) {
-    const setOne = set.reduce((total, value) => {
+    const setResult = set.reduce((total, value) => {
       total += value * counter;
       counter--;
       return total;
     }, 0);
 
-    const result = 11 - (setOne % 11);
+    const result = 11 - (setResult % 11);
     return result > 9 ? 0 : result;
   }
 
